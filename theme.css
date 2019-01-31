@@ -1,0 +1,24 @@
+body {
+        background-color: #0C141F;
+}
+
+.tl_article address, .tl_article address a {
+    color: #0088cc
+}
+
+.tl_article .tl_article_content, .tl_article .tl_article_content .ql-editor, .tl_article .tl_article_header {
+    color: #bbb;
+}
+
+.tl_article .tl_article_content aside {
+    color: #687f9f;
+}
+
+.tl_article .tl_article_content blockquote {
+     border-left: 3px solid #777;
+}
+
+.tl_article a[href] {
+        border-bottom: .01em solid #aaa
+
+}
