@@ -3,11 +3,17 @@ body {
 }
 
 .tl_article address, .tl_article address a {
-    color: #0088cc
+    color: #777;
 }
 
-.tl_article .tl_article_content, .tl_article .tl_article_content .ql-editor, .tl_article .tl_article_header {
+.account, .tl_article .tl_article_content, .tl_article .tl_article_content .ql-editor, .tl_article .tl_article_header {
     color: #bbb;
+}
+
+.button {
+    color: #bbb;
+    border: 2px solid #bbb;
+    background-color: #0C141F
 }
 
 .tl_article .tl_article_content aside {
@@ -19,6 +25,19 @@ body {
 }
 
 .tl_article a[href] {
-        border-bottom: .01em solid #aaa
+        border-bottom: .01em solid #aaa;
 
+}
+
+.tl_article.tl_article_edit [data-placeholder].empty:before {
+    color:#20334E;
+}
+
+.tl_article.tl_article_edit address a[href] {
+    border-bottom: .1em solid #20334E;
+}
+
+.tl_article.tl_article_edit [data-label]:after, .tl_article.tl_article_edit.title_focused [data-label].empty:after {
+    color: #20334E;
+    border-right: 1px solid #20334E;
 }
